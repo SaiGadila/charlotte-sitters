@@ -5,6 +5,10 @@ export function ParentForm() {
   return (
     <form action={parentFormEndpoint} method="POST" className="grid gap-5 rounded-lg border border-slate-100 bg-white p-5 shadow-soft sm:grid-cols-2 sm:p-6">
       <input type="hidden" name="form_type" value="parent_signup" />
+      <input type="hidden" name="_subject" value="New Charlotte Sitters parent request" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="https://saigadila.github.io/charlotte-sitters/#parents" />
       <FormField label="Name" name="name" placeholder="Avery Johnson" />
       <FormField label="Email" name="email" type="email" placeholder="avery@example.com" />
       <FormField label="Phone" name="phone" type="tel" placeholder="(704) 555-0123" />
@@ -29,7 +33,7 @@ export function ParentForm() {
         Get Started
       </button>
       <p className="text-xs leading-5 text-slate-500 sm:col-span-2">
-        Demo endpoint active. Replace with Formspree or Web3Forms credentials in environment variables before launch.
+        Requests are sent directly to the Charlotte Sitters inbox.
       </p>
     </form>
   );

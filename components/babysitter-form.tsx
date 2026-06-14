@@ -5,6 +5,10 @@ export function BabysitterForm() {
   return (
     <form action={sitterFormEndpoint} method="POST" className="grid gap-5 rounded-lg border border-slate-100 bg-brand-50/40 p-5 shadow-soft sm:grid-cols-2 sm:p-6">
       <input type="hidden" name="form_type" value="babysitter_signup" />
+      <input type="hidden" name="_subject" value="New Charlotte Sitters babysitter application" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="https://saigadila.github.io/charlotte-sitters/#sitters" />
       <FormField label="Name" name="name" placeholder="Jordan Smith" />
       <FormField label="Email" name="email" type="email" placeholder="jordan@example.com" />
       <FormField label="Phone" name="phone" type="tel" placeholder="(704) 555-0188" />

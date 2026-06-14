@@ -23,7 +23,11 @@ Open `http://localhost:3000`.
 
 ## Form Setup
 
-Create two Formspree or Web3Forms forms, then add their endpoints:
+By default, both forms send submissions to `aparna10kalyanam@gmail.com` through FormSubmit.
+
+The first real submission may trigger a FormSubmit activation email. Open that email once to activate delivery.
+
+To use Formspree, Web3Forms, or another provider instead, add custom endpoints:
 
 ```bash
 NEXT_PUBLIC_PARENT_FORM_ENDPOINT=https://formspree.io/f/your-parent-form-id
