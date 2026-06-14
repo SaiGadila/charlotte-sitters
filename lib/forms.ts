@@ -1,4 +1,4 @@
-export const submissionEmail = "aparna10kalyanam@gmail.com";
+export const submissionEmail = "saip2325@gmail.com";
 
 export const parentFormEndpoint =
   process.env.NEXT_PUBLIC_PARENT_FORM_ENDPOINT || `https://formsubmit.co/${submissionEmail}`;
