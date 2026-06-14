@@ -3,9 +3,9 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "We needed a sitter for a last-minute Panthers game night, and Charlotte Sitters helped us find someone warm, punctual, and already reviewed by local parents.",
-    name: "Megan R.",
-    detail: "Dilworth parent"
+      "We wanted someone comfortable with our dinner routine and a little Telugu at home. Charlotte Sitters made it easy to share those preferences up front.",
+    name: "Anusha R.",
+    detail: "Ballantyne parent"
   },
   {
     quote:
@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     quote:
-      "After-school care used to be a weekly scramble. Now we have two trusted sitters nearby who know our routine and our kids actually look forward to seeing.",
+      "After-school care used to be a weekly scramble. Now we have trusted sitters nearby who understand our routine and our kids actually look forward to seeing.",
     name: "Priya S.",
     detail: "Ballantyne parent"
   }

@@ -40,6 +40,7 @@ export function BabysitterForm() {
         </select>
       </FormField>
       <FormField label="Availability" name="availability" placeholder="Weeknights and weekends" />
+      <FormField label="Languages or Cultural Experience" name="languages_and_cultural_experience" required={false} placeholder="Hindi, Telugu, Tamil, Spanish, Indian family routines" />
       <button type="submit" className="min-h-12 rounded-full bg-ink px-6 text-sm font-bold text-white transition hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600 sm:col-span-2">
         Apply as a Babysitter
       </button>

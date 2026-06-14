@@ -3,17 +3,17 @@ import { CalendarCheck, Search, Smile } from "lucide-react";
 const steps = [
   {
     title: "Find",
-    description: "Search for available babysitters in your area.",
+    description: "Search for available babysitters near your Charlotte neighborhood.",
     Icon: Search
   },
   {
     title: "Book",
-    description: "Request care in minutes.",
+    description: "Request care in minutes and include family routines or preferences.",
     Icon: CalendarCheck
   },
   {
     title: "Relax",
-    description: "Enjoy peace of mind with verified caregivers.",
+    description: "Enjoy peace of mind with verified caregivers who respect your home.",
     Icon: Smile
   }
 ];
@@ -24,7 +24,7 @@ export function HowItWorks() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-brand-600">How It Works</p>
-          <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink sm:text-4xl">Childcare requests without the back-and-forth.</h2>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink sm:text-4xl">Childcare requests that understand family life.</h2>
         </div>
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {steps.map(({ title, description, Icon }) => (

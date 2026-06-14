@@ -14,6 +14,7 @@ export function ParentForm() {
       <FormField label="Phone" name="phone" type="tel" placeholder="(704) 555-0123" />
       <FormField label="ZIP Code" name="zip_code" inputMode="numeric" placeholder="28203" />
       <FormField label="Child Age" name="child_age" placeholder="4 and 7" />
+      <FormField label="Language or Cultural Preferences" name="family_preferences" required={false} placeholder="Hindi, Telugu, vegetarian meals, bedtime routine" />
       <FormField label="Care Needed" name="care_needed">
         <select
           id="care_needed-field"

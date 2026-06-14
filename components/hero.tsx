@@ -9,13 +9,13 @@ export function Hero() {
         <div className="animate-fadeUp">
           <div className="inline-flex items-center gap-2 rounded-full border border-brand-100 bg-brand-50 px-3 py-1 text-sm font-semibold text-brand-700">
             <BadgeCheck aria-hidden="true" className="h-4 w-4" />
-            Background checked and Charlotte local
+            Charlotte local, family-first, culturally aware
           </div>
           <h1 className="mt-6 text-4xl font-bold tracking-tight text-ink sm:text-5xl lg:text-6xl">
             Trusted Babysitters in Charlotte, When You Need Them Most
           </h1>
           <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
-            Find vetted babysitters for date nights, weekends, emergency childcare, and recurring care.
+            Find vetted babysitters for date nights, weekends, emergency childcare, and recurring care, with support for Indian families and every Charlotte community.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <ButtonLink href="#parents">Find a Babysitter</ButtonLink>
@@ -23,9 +23,9 @@ export function Hero() {
           </div>
           <div className="mt-8 grid max-w-xl grid-cols-2 gap-3 sm:grid-cols-3">
             {[
-              ["250+", "local families"],
+              ["250+", "Charlotte families"],
               ["24 hr", "request window"],
-              ["4.9/5", "parent rating"]
+              ["All", "communities welcome"]
             ].map(([value, label]) => (
               <div key={label} className="rounded-lg border border-slate-100 bg-white p-4 shadow-sm">
                 <p className="text-2xl font-bold text-brand-700">{value}</p>
@@ -38,7 +38,7 @@ export function Hero() {
           <div className="relative overflow-hidden rounded-[2rem] bg-brand-50 shadow-soft">
             <Image
               src="/charlotte-sitters-hero.png"
-              alt="Babysitter helping children with crafts while a parent smiles nearby"
+              alt="Babysitter helping a Charlotte family with children at a bright kitchen table"
               width={1400}
               height={1000}
               priority
@@ -52,14 +52,14 @@ export function Hero() {
               </span>
               <div>
                 <p className="font-semibold text-ink">Date-night sitter found</p>
-                <p className="text-sm text-slate-500">South End, Saturday 6:30 PM</p>
+                <p className="text-sm text-slate-500">Ballantyne, Saturday 6:30 PM</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
               <span className="grid h-10 w-10 place-items-center rounded-full bg-emerald-50 text-emerald-700">
                 <HeartHandshake aria-hidden="true" className="h-5 w-5" />
               </span>
-              <p className="text-sm font-medium text-slate-600">Verified caregiver, secure parent messaging, and review history included.</p>
+              <p className="text-sm font-medium text-slate-600">Share language, routine, meal, and cultural preferences when you request care.</p>
             </div>
           </div>
         </div>

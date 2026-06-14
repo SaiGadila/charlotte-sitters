@@ -1,4 +1,4 @@
-import { CheckCircle2, HeartPulse, MessageCircle, ShieldCheck, Star, Zap } from "lucide-react";
+import { CheckCircle2, Globe2, HeartPulse, MessageCircle, ShieldCheck, Star, Utensils, Zap } from "lucide-react";
 
 const features = [
   { label: "Background Checked Sitters", Icon: ShieldCheck },
@@ -6,7 +6,9 @@ const features = [
   { label: "Last-Minute Availability", Icon: Zap },
   { label: "Secure Messaging", Icon: MessageCircle },
   { label: "Parent Reviews", Icon: Star },
-  { label: "Local Charlotte Community", Icon: CheckCircle2 }
+  { label: "Local Charlotte Community", Icon: CheckCircle2 },
+  { label: "Language Preferences", Icon: Globe2 },
+  { label: "Routine and Meal Notes", Icon: Utensils }
 ];
 
 export function WhyChooseUs() {
@@ -21,10 +23,10 @@ export function WhyChooseUs() {
             </h2>
           </div>
           <p className="text-base leading-7 text-slate-600">
-            Every part of Charlotte Sitters is designed around safety, clarity, and quick communication for busy families.
+            Every part of Charlotte Sitters is designed around safety, clarity, and quick communication for busy families, from Indian households to every community across Charlotte.
           </p>
         </div>
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {features.map(({ label, Icon }) => (
             <div key={label} className="flex items-center gap-3 rounded-lg border border-slate-100 bg-white p-4 shadow-sm">
               <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-brand-50 text-brand-700">

@@ -1,4 +1,5 @@
 import { BabysitterForm } from "@/components/babysitter-form";
+import { CommunityCare } from "@/components/community-care";
 import { ContactStrip } from "@/components/contact-strip";
 import { FAQ } from "@/components/faq";
 import { FinalCTA } from "@/components/final-cta";
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <HowItWorks />
+      <CommunityCare />
       <WhyChooseUs />
       <section id="parents" className="bg-brand-50/50 py-16 sm:py-20">
         <div className="mx-auto grid max-w-6xl gap-8 px-4 sm:px-6 lg:grid-cols-[1fr_1.15fr] lg:items-start lg:px-8">
@@ -27,7 +29,7 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-base leading-7 text-slate-600">
               Charlotte Sitters helps match parents with local caregivers for
-              one-time, recurring, and last-minute childcare requests.
+              one-time, recurring, and last-minute childcare requests. Add language, culture, meal, and routine notes so the match feels right for your home.
             </p>
           </div>
           <ParentForm />
@@ -44,7 +46,7 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-base leading-7 text-slate-600">
               Apply to connect with families seeking reliable, reviewed, and
-              safety-minded sitters across the Charlotte area.
+              safety-minded sitters across the Charlotte area. Multilingual and culturally aware sitters are especially welcome.
             </p>
           </div>
           <BabysitterForm />
