@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { BadgeCheck, CalendarClock, HeartHandshake } from "lucide-react";
 import { ButtonLink } from "@/components/button-link";
 
@@ -36,12 +35,11 @@ export function Hero() {
         </div>
         <div className="relative animate-fadeUp lg:pl-4" style={{ animationDelay: "120ms" }}>
           <div className="relative overflow-hidden rounded-[2rem] bg-brand-50 shadow-soft">
-            <Image
-              src="/charlotte-sitters-hero.png"
+            <img
+              src="charlotte-sitters-hero.png"
               alt="Babysitter helping a Charlotte family with children at a bright kitchen table"
               width={1400}
               height={1000}
-              priority
               className="aspect-[4/3] w-full object-cover"
             />
           </div>
