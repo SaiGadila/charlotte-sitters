@@ -50,6 +50,8 @@ This project is configured for static GitHub Pages deployment through `.github/w
 
 After pushing to `main`, enable Pages in the repository settings with **Source: GitHub Actions**. The workflow builds the static app into `out/` and deploys it.
 
+Custom domain: `quickcare.today`.
+
 ## Future Booking Integration
 
 The file `lib/stripe.ts` contains a placeholder for adding Stripe Checkout or booking deposits later.

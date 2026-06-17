@@ -14,12 +14,12 @@ export const metadata: Metadata = {
     "Indian babysitter Charlotte",
     "community childcare Charlotte"
   ],
-  metadataBase: new URL("https://charlottesitters.com"),
+  metadataBase: new URL("https://quickcare.today"),
   openGraph: {
     title: "Charlotte Sitters",
     description:
       "Trusted, community-aware babysitters in Charlotte, when you need them most.",
-    url: "https://charlottesitters.com",
+    url: "https://quickcare.today",
     siteName: "Charlotte Sitters",
     locale: "en_US",
     type: "website",

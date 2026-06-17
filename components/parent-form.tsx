@@ -8,7 +8,7 @@ export function ParentForm() {
       <input type="hidden" name="_subject" value="New Charlotte Sitters parent request" />
       <input type="hidden" name="_template" value="table" />
       <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="https://saigadila.github.io/charlotte-sitters/thank-you/" />
+      <input type="hidden" name="_next" value="https://quickcare.today/thank-you/" />
       <FormField label="Name" name="name" placeholder="Avery Johnson" />
       <FormField label="Email" name="email" type="email" placeholder="avery@example.com" />
       <FormField label="Phone" name="phone" type="tel" placeholder="(704) 555-0123" />
