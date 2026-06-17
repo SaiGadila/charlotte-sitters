@@ -8,7 +8,7 @@ export function BabysitterForm() {
       <input type="hidden" name="_subject" value="New Charlotte Sitters babysitter application" />
       <input type="hidden" name="_template" value="table" />
       <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="https://saigadila.github.io/charlotte-sitters/#sitters" />
+      <input type="hidden" name="_next" value="https://saigadila.github.io/charlotte-sitters/thank-you/" />
       <FormField label="Name" name="name" placeholder="Jordan Smith" />
       <FormField label="Email" name="email" type="email" placeholder="jordan@example.com" />
       <FormField label="Phone" name="phone" type="tel" placeholder="(704) 555-0188" />
