@@ -4,14 +4,14 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Charlotte Sitters | Trusted Babysitters in Charlotte, NC",
   description:
-    "Find vetted babysitters in Charlotte for date nights, weekends, emergency childcare, after-school care, and recurring care, with community-aware support for Indian families and every Charlotte family.",
+    "Find vetted babysitters in Charlotte for date nights, weekends, emergency childcare, after-school care, and recurring care, with support for families across every Charlotte community.",
   keywords: [
     "Charlotte babysitters",
     "babysitting Charlotte NC",
     "childcare Charlotte",
     "date night sitter",
     "CPR certified babysitter",
-    "Indian babysitter Charlotte",
+    "family care Charlotte",
     "community childcare Charlotte"
   ],
   metadataBase: new URL("https://quickcare.today"),

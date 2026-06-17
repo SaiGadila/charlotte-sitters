@@ -23,7 +23,7 @@ export function WhyChooseUs() {
             </h2>
           </div>
           <p className="text-base leading-7 text-slate-600">
-            Every part of Charlotte Sitters is designed around safety, clarity, and quick communication for busy families, from Indian households to every community across Charlotte.
+            Every part of Charlotte Sitters is designed around safety, clarity, and quick communication for busy families across Charlotte.
           </p>
         </div>
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

@@ -2,8 +2,8 @@ import { Languages, MapPin, PartyPopper, School, Soup, Users } from "lucide-reac
 
 const captions = [
   {
-    title: "For Indian families in Charlotte",
-    description: "Request sitters who understand homework time, dinner routines, festival nights, and extended-family schedules.",
+    title: "For Charlotte families",
+    description: "Request sitters who understand homework time, dinner routines, weekend plans, and changing family schedules.",
     Icon: PartyPopper
   },
   {
@@ -13,7 +13,7 @@ const captions = [
   },
   {
     title: "Language preferences",
-    description: "Share preferences like Hindi, Telugu, Tamil, Gujarati, Punjabi, Spanish, or English when available.",
+    description: "Share language preferences so families and caregivers can communicate comfortably when available.",
     Icon: Languages
   },
   {
@@ -23,7 +23,7 @@ const captions = [
   },
   {
     title: "Meal and routine notes",
-    description: "Add vegetarian, allergy, bedtime, screen-time, or quiet-time notes for your family.",
+    description: "Add allergy, meal, bedtime, screen-time, or quiet-time notes for your family.",
     Icon: Soup
   },
   {
@@ -40,10 +40,10 @@ export function CommunityCare() {
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-brand-600">Community-Aware Care</p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            Starting with Charlotte&apos;s Indian families, welcoming every family.
+            Built for every Charlotte family.
           </h2>
           <p className="mt-4 text-base leading-7 text-slate-600">
-            Parents can share the details that make childcare feel familiar: language, food preferences, school routines, festival plans, and household expectations.
+            Parents can share the details that make childcare feel familiar: language preferences, food notes, school routines, schedules, and household expectations.
           </p>
         </div>
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

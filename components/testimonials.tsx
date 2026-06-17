@@ -3,8 +3,8 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "We wanted someone comfortable with our dinner routine and a little Telugu at home. Charlotte Sitters made it easy to share those preferences up front.",
-    name: "Anusha R.",
+      "We wanted someone comfortable with our dinner routine, bedtime schedule, and the way our home runs. Charlotte Sitters made it easy to share those preferences up front.",
+    name: "Avery R.",
     detail: "Ballantyne parent"
   },
   {

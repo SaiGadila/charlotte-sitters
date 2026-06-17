@@ -14,7 +14,7 @@ export function Hero() {
             Trusted Babysitters in Charlotte, When You Need Them Most
           </h1>
           <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
-            Find vetted babysitters for date nights, weekends, emergency childcare, and recurring care, with support for Indian families and every Charlotte community.
+            Find vetted babysitters for date nights, weekends, emergency childcare, and recurring care, with support for families across every Charlotte community.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <ButtonLink href="#parents">Find a Babysitter</ButtonLink>
@@ -57,7 +57,7 @@ export function Hero() {
               <span className="grid h-10 w-10 place-items-center rounded-full bg-emerald-50 text-emerald-700">
                 <HeartHandshake aria-hidden="true" className="h-5 w-5" />
               </span>
-              <p className="text-sm font-medium text-slate-600">Share language, routine, meal, and cultural preferences when you request care.</p>
+              <p className="text-sm font-medium text-slate-600">Share language, routine, meal, and household preferences when you request care.</p>
             </div>
           </div>
         </div>
